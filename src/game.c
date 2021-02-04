@@ -24,7 +24,7 @@ void gamestatus(SDL_Renderer *renderer){
     for(int i=2; i<len.snake_l; i++){
     	len.snake_l =5;
         if(p.posx[0]==p.posx[i] && p.posy[0]==p.posy[i]){
-            printf("\nGame over \n\nyour score: %d\n\n", f.score);
+            printf("\nGame over \n\nyour scre: %d\n\n", f.score);
             exit(0);
         }
     }
