@@ -14,7 +14,7 @@ int main(int argc, char **argv)
 {
     SDL_Init(SDL_INIT_VIDEO);
     printf("gcc version: %d.%d.%d\n",__GNUC__,__GNUC_MINOR__,__GNUC_PATCHLEVEL__);
-    SDL_Window *window = SDL_CreateWindow("snake game", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, scr_height+1, scr_width+1, SDL_WINDOW_OPENGL);
+    SDL_Window *window = SDL_CreateWindow("snakev game", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, scr_height+1, scr_width+1, SDL_WINDOW_OPENGL);
 
     SDL_Renderer *renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
 
